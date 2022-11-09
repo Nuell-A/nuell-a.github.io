@@ -13,7 +13,7 @@
 <body>
     <div class="top">
         <p>Hello, my name is</p>
-        <h1>Emanuel Alcala-Arredondo.</h1>
+        <h1 class="name">Emanuel Alcala-Arredondo.</h1>
         <p>I'm a veteran and an aspiring Software Engineer! I am pursuing a bachelor's in
             Computer Science with an estimated graduation date of December 
             2024. I also hold multiple CompTIA certifications; A+, Network+, and Security+.
@@ -24,8 +24,9 @@
             <a href="https://www.linkedin.com/in/emanuel-alcala-arredondo/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square"> LinkedIn</i></a>
         </div>
     </div>
+    <hr>
     <div class="about-me">
-        <h1>About Me</h1>
+        <h1 class="about">About Me</h1>
         <p>Hi! my name is Emanuel and I enjoy coding. It all started my sophmore year in college 
             when I took a computer science intro course. Ever since then I've been pursuing knowledge
             in software and how to create it. Even when I joined the Air Force that didn't stop me from
@@ -39,7 +40,7 @@
         </p>
     </div>
     <div class="past-work">
-        <h1>Where I've Worked</h1>
+        <h1 class="work">Where I've Worked</h1>
         <ul>
             <div class="job1">
                 <li><button onclick="avionics()" class="button button1" type="button">Avionics Technician</button></li>
@@ -76,7 +77,7 @@
         </ul>       
     </div>
     <div class="skills1">
-        <h1 id="skills-h">Skills</h1>
+        <h1 class="skills-h">Skills</h1>
         <ul class="skills">
             <li>Java</li>
             <li>Python</li>
@@ -90,8 +91,38 @@
         </ul>
     </div>
     <div class="projects">
-        <h1>Projects</h1>
-        <strong>Alien Invasion</strong>
+        <h1 class="proj">Projects</h1>
+        <section class="proj1">
+            <a href="https://github.com/Nuell-A/alien-invasion-pygame" target="_blank"><strong class="circ">Alien Invasion</strong></a>
+            <br>
+            <i>Python</i>
+            <p>Alien Invasion is a Space Invaders like game. There are waves of aliens
+                that come down towards your ship. It also contains progressive difficulty with 
+                stages and a scoring system.
+            </p>
+            <ul>
+                <li>Alien Invasion solidified Object-Oriented Principles</li>
+                <li>Basic algorithm usage (to create the waves of aliens)</li>
+                <li>Project structure and organization</li>
+                <li>Loops, data structures, logic, and creativity</li>
+            </ul>
+        </section>
+        <section class="proj2">
+            <a href="https://github.com/Nuell-A/HomeInventory" target="_blank"><strong class="circ">Home Inventory System</strong></a>
+            <br>
+            <i>Java</i>
+            <p>This project lets users choose from a CLI menu of adding, removing,
+                 updating, displaying, or printing homes in/to the inventory.
+            </p>
+            <ul>
+                <li>This project really enforced how flexible programming is and taught me a lot about 
+                    using arrays. For example, in this project I used an array to hold class objects that hold 
+                    all the information for each home. This allowed for updating, removing homes.
+                </li>
+                <li>Used try... catch error handling to avoid errors with users.</li>
+                <li>Got familiarized working with files (writing, reading, modifying).</li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>

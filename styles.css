@@ -1,13 +1,27 @@
 .top {
-    background-color:rgb(24, 66, 67);
     padding: 3.3rem;
     border: .5rem;
-    border-style: groove;
-    border-color: rgb(46, 52, 67);
+    border-style:solid solid none solid;
+    border-color: rgb(52, 62, 90);
+}
+
+.name, .proj, .about, .skills-h, .work{
+    color:rgb(33, 110, 66)
+}
+
+hr {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+strong {
+    text-decoration: underline;
+    color: rgb(206, 196, 196);
 }
 
 body {
-    background-color:rgb(22, 51, 52);
+    background-color:rgb(31, 28, 64);
     margin: 0;
     color:rgb(164, 160, 154);
     padding: 3.3rem;
@@ -17,7 +31,11 @@ body {
 
 .icons {
     float: right;
-    margin-bottom: 10rem;
+    margin-bottom: 0rem;
+}
+
+.fa-github, .fa-linkedin-square {
+    color:rgb(33, 110, 66)
 }
 
 .fa-github:hover, .fa-linkedin-square:hover {
